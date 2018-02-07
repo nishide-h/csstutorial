@@ -14,3 +14,17 @@ body {
 
 a { color: #2d5ee1; }
  a:hover { color: #1f4099; }
+
+/* ヘッダー */
+.header__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #999999;
+  font-size: 40px;
+  font-weight: bold;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  height: 120px;
+}
+
