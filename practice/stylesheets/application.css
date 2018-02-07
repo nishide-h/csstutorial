@@ -15,6 +15,9 @@ body {
 a { color: #2d5ee1; }
  a:hover { color: #1f4099; }
 
+.container {
+}
+
 /* ヘッダー */
 .header__title {
   display: flex;
@@ -28,6 +31,9 @@ a { color: #2d5ee1; }
   height: 120px;
 }
 
+.global-nav {
+  display: flex;
+}
 .global-nav ul {
   width: calc(100% - 60px);
   margin: 0 auto;
@@ -52,4 +58,17 @@ a { color: #2d5ee1; }
   font-size: 110%;
   font-weight: bold;
 }
+/*
+.bread-crumbs {
+  display: flex;
+  align-self: auto;
+}
+.bread-crumbs__items {
+  display: flex;
+  justify-content: flex-start;
+  background: #5b5b5b;
+}
+*/
+
+/* 広告 */
 
