@@ -82,11 +82,26 @@ a { color: #2d5ee1; }
   color: white;
   text-decoration: none;
 }
+
+/* 広告 */
 .top-ads {
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  background: #cccccc;
+}
+.top-ads__items {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
+.top-ads__items li {
+  /* border: 20px #cccccc solid; */
+}
+.top-ads__items li img {
+  margin: 20px;
+  height: 270px;
+}
+
 .body {
   display: flex;
   justify-content: center;
@@ -97,6 +112,4 @@ a { color: #2d5ee1; }
   justify-content: center;
   align-items: center;
 }
-
-/* 広告 */
 
