@@ -94,19 +94,56 @@ a { color: #2d5ee1; }
   justify-content: space-around;
   align-items: center;
 }
-.top-ads__items li {
-  /* border: 20px #cccccc solid; */
-}
 .top-ads__items li img {
   margin: 20px;
   height: 270px;
 }
 
+/* 記事 */
 .body {
+  width: calc(100% - 60px);
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row-reverse;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  /* width: 500px; */
+  /* width: 70%; */
+}
+.article__image {
+  width: 100px; /* 一時的 */
+}
+
+.aside {
+  background: #5b5b5b;
+  display: flex;
+  flex-direction: column;
+}
+.aside-ads__image {
+  margin: 10px 10px 0px 10px;
+}
+.local-nav {
+  height: 150px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  margin: 0px 10px;
+  overflow: auto;
+}
+.local-nav__item {
+  background: #999999;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 2px 0px;
+}
+.local-nav__link {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
