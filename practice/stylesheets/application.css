@@ -167,6 +167,33 @@ a { color: #2d5ee1; }
     position: absolute;
     border-left: #444 solid 15px;
   }
+
+.article {
+  display: flex;
+  flex-direction: column;
+  background: #ddd;
+}
+.article h3 {
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+}
+  .article h3:before {
+    top: -10px;
+    left: -20px;
+    width: 10px;
+    height: 20px;
+    content: "";
+    background: #999;
+    border-bottom: #444 solid 20px;
+    position: absolute;
+  }
+.article__paragraph {
+  margin: 0px 20px;
+}
 */
 
 .article__image {
