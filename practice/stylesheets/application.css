@@ -15,6 +15,9 @@ body {
 a { color: #2d5ee1; }
  a:hover { color: #1f4099; }
 
+strong {
+  font-weight: bold;
+}
 /* ヘッダー */
 .header {
   display: flex;
@@ -146,7 +149,6 @@ a { color: #2d5ee1; }
   margin-left: 60px;
   position: relative;
 }
-  .main-header__title: before {
   .main-header__title:before {
     top: -5px;
     left: -40px;
