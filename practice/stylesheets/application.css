@@ -41,7 +41,6 @@ strong {
   display: flex;
   justify-content: center;
 }
-
 .global-nav__items li {
   display: flex;
   justify-content: center;
@@ -59,6 +58,7 @@ strong {
   font-size: 110%;
   font-weight: bold;
 }
+
 .bread-crumbs {
   width: calc(100% - 60px);
   margin: 0 auto;
@@ -222,6 +222,12 @@ strong {
 .article__paragraph {
   margin: 5px 20px;
   line-height: 150%;
+}
+
+.article__unorder-list {
+  margin: 10px 40px;
+  list-style-type: disc;
+  line-height: 200%;
 }
 
 .article__image {
