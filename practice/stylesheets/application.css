@@ -143,9 +143,31 @@ a { color: #2d5ee1; }
 .main-header__title {
   font-size: 200%;
   font-weight: bold;
+  margin-left: 60px;
+  position: relative;
 }
   .main-header__title: before {
+  .main-header__title:before {
+    top: -5px;
+    left: -40px;
+    width: 15px;
+    height: 15px;
+    content: "";
+    background: #999;
+    position: absolute;
+    border-right: #444 solid 15px;
   }
+  .main-header__title:after {
+    top: 10px;
+    left: -40px;
+    width: 15px;
+    height: 15px;
+    content: "";
+    background: #999;
+    position: absolute;
+    border-left: #444 solid 15px;
+  }
+*/
 
 .article__image {
   width: 100px; /* 一時的 */
