@@ -193,12 +193,36 @@ strong {
     border-bottom: #444 solid 20px;
     position: absolute;
   }
+.article h4 {
+  margin-top: 20px;
+  margin-left: 60px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+}
+  .article h4:before {
+    top: 0px;
+    left: -38px;
+    width: 5px;
+    height: 20px;
+    content: "";
+    background: #434343;
+    position: absolute;
+  }
+  .article h4:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #434343;
+  }
 .article__paragraph {
-  margin: 0px 20px;
   margin: 5px 20px;
   line-height: 150%;
 }
-*/
 
 .article__image {
   width: 100px; /* 一時的 */
