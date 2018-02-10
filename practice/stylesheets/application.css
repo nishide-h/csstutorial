@@ -264,6 +264,31 @@ strong {
   width: calc(100% - 60px);
 }
 
+.article__sub-sub-title {
+  position: relative;
+  margin: 10px 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+  .article__sub-sub-title:before {
+    position: absolute;
+    content: "";
+    left: -30px;
+    width: 16px;
+    height: 16px;
+    background: #464646;
+    border-radius: 8px;
+  }
+  .article__sub-sub-title:after {
+    position: absolute;
+    content: "";
+    left: -20px;
+    width: 16px;
+    height: 16px;
+    background: #999;
+    border-radius: 8px;
+  }
+
 /* 縦広告 */
 .aside {
   background: #5b5b5b;
