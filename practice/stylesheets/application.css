@@ -289,6 +289,13 @@ strong {
     border-radius: 8px;
   }
 
+.article__order-list {
+  margin: 10px 40px;
+  list-style-type: decimal;
+  line-height: 200%;
+}
+
+
 /* 縦広告 */
 .aside {
   background: #5b5b5b;
