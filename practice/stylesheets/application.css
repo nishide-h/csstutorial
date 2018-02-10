@@ -259,8 +259,10 @@ strong {
     font-size: 50px;
     text-align: center;
   }
+
 .article__image {
-  width: 100px; /* 一時的 */
+  margin: 10px 30px;
+  width: calc(100% - 60px);
 }
 
 /* 縦広告 */
