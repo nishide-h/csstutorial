@@ -295,6 +295,37 @@ strong {
   line-height: 200%;
 }
 
+/* お問合わせ */
+.form {
+  background: white;
+
+.form__title {
+  margin: 20px 70px;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+}
+  .form__title:before {
+    position: absolute;
+    top: -5px;
+    left: -60px;
+    width: 50px;
+    height: 30px;
+    content: "";
+    border: 2px solid #000;
+  }
+  .form__title:after {
+    position: absolute;
+    top: -20px;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    border-color: transparent transparent #000 #000;
+    transform: rotate(-45deg);
+    content: "";
+  }
+
 
 /* 縦広告 */
 .aside {
