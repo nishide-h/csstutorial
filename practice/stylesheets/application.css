@@ -246,7 +246,6 @@ strong {
     background: #999;
     border-radius: 23px;
     content: '';
-    font-size: 50px;
   }
   .article__blockquote:after {
     position: absolute;
