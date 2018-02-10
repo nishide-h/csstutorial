@@ -230,6 +230,35 @@ strong {
   line-height: 200%;
 }
 
+.article__blockquote {
+  margin: 50px 30px 5px 30px;
+  position: relative;
+  border-left: 5px solid #999;
+  padding-left: 30px;
+  line-height: 200%;
+}
+  .article__blockquote:before {
+    position: absolute;
+    top: -40px;
+    left: -25px;
+    width: 46px;
+    height: 46px;
+    background: #999;
+    border-radius: 23px;
+    content: '';
+    font-size: 50px;
+  }
+  .article__blockquote:after {
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    width: 10px;
+    height: 10px;
+    content: '"';
+    color: #eee;
+    font-size: 50px;
+    text-align: center;
+  }
 .article__image {
   width: 100px; /* 一時的 */
 }
