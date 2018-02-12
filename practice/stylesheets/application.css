@@ -334,12 +334,13 @@ strong {
   .form-item:nth-child(4) label {
     align-self: flex-start;
   }
-label {
+.form-item__label {
   width: 10em;
   text-align: right;
   padding-right: 20px;
+  font-weight: bold;
 }
-input {
+input[type="text"], input[type="password"] {
   flex: 1 1 80%;
   border: 2px solid #ddd;
   border-radius: 5px; 
@@ -351,8 +352,9 @@ textarea {
   border-radius: 5px;
   height: 300px;
 }
-.form-item__inline-items {
-  display: flex;
+.form-item__inline-item {
+  display: inline-flex;
+  margin-left: 10px;
 }
 /* 縦広告 */
 .aside {
