@@ -366,6 +366,17 @@ textarea {
   width: 80px;
   height: 40px;
 }
+.form-item__checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e3e3e3;
+  background: #ddd;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+}
+
 /* 縦広告 */
 .aside {
   background: #5b5b5b;
