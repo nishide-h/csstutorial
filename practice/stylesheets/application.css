@@ -356,6 +356,16 @@ textarea {
   display: inline-flex;
   margin-left: 10px;
 }
+.form-item__radio {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  background: #eee;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+}
 /* 縦広告 */
 .aside {
   background: #5b5b5b;
