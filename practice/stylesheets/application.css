@@ -376,6 +376,14 @@ textarea {
   width: 80px;
   height: 40px;
 }
+.form-item__select-pull-down {
+  display: inline-flex;
+  flex: 1 1 80%;
+  background: #eee; 
+  height: 30px;
+  margin-left: 15px;
+  font-size: 15px;
+}
 
 /* 縦広告 */
 .aside {
