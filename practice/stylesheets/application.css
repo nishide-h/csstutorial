@@ -460,9 +460,30 @@ textarea {
   margin: 10px;
 }
 
+/* フッター */
 .footer {
+  width: calc(100% - 60px);
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  background: #444;
 }
+.footer-nav {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.footer-nav__item {
+  margin: 20px;
+}
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+  .footer-nav a:before {
+    content: ">";
+    left: -10px;
+    position: absolute;
+  }
 
