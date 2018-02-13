@@ -398,6 +398,18 @@ textarea {
   font-size: 15px;
   padding-left: 10px;
 }
+.form-item__file {
+  display: inline-flex;
+  align-items: center;
+  flex: 1 1 80%;
+  background: #eee; 
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  height: 30px;
+  margin-left: 15px;
+  padding-left: 10px;
+  padding-top: 10px; /* alignのcenterが効かなかったため */
+}
 
 /* 縦広告 */
 .aside {
