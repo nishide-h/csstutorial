@@ -411,6 +411,25 @@ textarea {
   padding-top: 10px; /* alignのcenterが効かなかったため */
 }
 
+.form-item__actions-items {
+  display: inline-flex;
+}
+.form-item__action {
+  margin-left: 15px;
+  width: 200px;
+  font-size: 15px;
+  height: 50px;
+  border-radius: 5px;
+}
+  .is-submit {
+    background: #444;
+    color: white;
+  }
+  .is-reset {
+    background: #ccc;
+    color: #6f6f6f;
+  }
+
 /* 縦広告 */
 .aside {
   background: #5b5b5b;
