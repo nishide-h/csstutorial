@@ -6,10 +6,17 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 
 /* 共通 */
 body {
-  background: #AAAAAA;
-  font: 16px/20px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",'メイリオ',
-  Meiryo,Helvetica,Arial,Sans-Serif;
-  color: #454545;
+  color: #444;
+  background: #aaa;
+}
+
+.container {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #666;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+  overflow: hidden;
 }
 
 a { color: #2d5ee1; }
